@@ -10,7 +10,7 @@ from sklearn.preprocessing import LabelEncoder
 from PIL import Image
 
 warnings.filterwarnings("ignore")
-st.set_option("deprecation.showPyplotGlobalUse", False)
+# st.set_option("deprecation.showPyplotGlobalUse", False)
 
 def get_data_from_excel():
     dtypes = {
