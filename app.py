@@ -25,7 +25,7 @@ def get_data_from_excel():
     chunk_size = 10000
     train_chunks = []
     for chunk in pd.read_csv(
-        r"datasets/drugsComTrain_raw.tsv",
+        r"drugsComTrain_raw.tsv",
         sep="\t",
         quoting=2,
         dtype=dtypes,
@@ -36,7 +36,7 @@ def get_data_from_excel():
 
     test_chunks = []
     for chunk in pd.read_csv(
-        r"datasets/drugsComTest_raw.tsv",
+        r"drugsComTest_raw.tsv",
         sep="\t",
         quoting=2,
         dtype=dtypes,
